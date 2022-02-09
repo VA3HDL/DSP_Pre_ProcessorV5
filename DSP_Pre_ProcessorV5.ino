@@ -679,7 +679,7 @@ void setup(void) {
   oled.clear();
   oled.setCursor(0, 0);
   oled.println("VA3HDL - Aurora,ON");
-  oled.println("Version 4.0");
+  oled.println("Version 5.0");
 
   Timer1.initialize(500);
   Timer1.attachInterrupt(timerIsr);
